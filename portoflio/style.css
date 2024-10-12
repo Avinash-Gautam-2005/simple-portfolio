@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.top-container {
+    margin: 0;
+    background-image: url(background\ imgage.jpg);
+    height: 100vh;
+    width: 100%;
+    background-color: #87d1c3;
+    background-blend-mode: multiply;
+    
+    
+}
+.top-container h1{
+    position: absolute;
+    top: 16%;
+    left: 20%;
+    
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5.6rem;
+    font-weight: 600;
+   
+    color:#3b4a41;
+    
+}
+.top-container h2{
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #de501d;
+    opacity: 0.6;
+
+
+}
+.mountain{
+    position: absolute;
+    height: 325px;
+    width: 600px;
+    top: 52%;
+    left: 28%;
+    opacity: 1;
+    
+}
+.cloud{
+    height:200px ;
+}
+
+.middle-container{
+    margin: 100px 0;
+    
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.profile h2{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.intro{
+    margin: auto;
+    width: 30%;
+}
+.profile p{
+    line-height: 2;
+    text-align: center;
+    display: block;
+    font-weight: normal;
+    font-size: 1.25rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    margin-bottom: 5rem;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+    
+}
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+  
+}
+.coding h3{
+    color:#de501d; 
+    text-shadow: 5px 5px 10px gold;
+}
+.hot-wings h3{
+    color: #de501d;
+    text-shadow: 5px 5px 10px gold;
+}
+.chilli-img{
+    width: 80%;
+    margin-left: 30px;
+    
+    
+}
+.coding p{
+    color:#1e5cb9; 
+    text-shadow: 2px 2px 50px aqua;
+}
+.hot-wings p{
+    color:#1e5cb9; 
+    text-shadow: 2px 2px 50px aqua;
+
+}
+.cat-img{
+    border-radius: 50%;
+}
+.current{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    margin-top: 1.5rem;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;   
+}
+.data{
+    display: flex;
+    margin: 1rem;
+    border: 0.1rem solid aquamarine;
+    background-color:rgba(225, 240, 239, 0.5) ;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* text-shadow: rgb(252, 196, 54) 1px 0 10px ; */
+    box-shadow: 3px 3px 10px red, -5px 0 .4em olive;
+    transition: 0.2s ease-in;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2rem;
+    border-radius: 1.5rem;
+}
+.data img{
+    height: 100%;
+    width: 100%;
+    padding-right: 1.2rem;
+    padding-top: 1.5rem;
+    z-index: -1;
+    border-radius: 20%;  
+}
+.data:hover{
+    box-shadow: 10px 10px 20px red, -10px 0 .8em olive;
+    font-weight: 900;
+}
+
+
+.contact-me{
+    display: block;
+    text-align: center;
+    margin-top: 5rem;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.contact-me h2{
+    color: #66bfbf;
+    font-family:40px montserrat,sans-serif ;
+    margin: 32px 0;
+    padding: 0 0 10px;
+    
+}
+.contact-me h3{
+    color: #11999e;
+    font-family: 18.2px montserrat,sans-serif ;
+    margin: 18.72px 0;
+    
+
+}
+.contact-message{
+    color: #40514e;
+    font:20px merriweather , serif;
+    margin : 40px 302.109px 60px 302px ;
+   
+    
+
+}
+.contact-me a{
+    color: #fff;
+    font: 20px montserrat,sans-serif ;
+    margin: 10px 20px ;
+    padding: 10px 20px ;
+    
+
+
+}
+.footer{
+    background-color: #66bfbf;
+
+}
+
